@@ -13,7 +13,7 @@ function convertTasks(str) {
 
   function convertCities (str) {
     const match = dropdownCities.find(({val}) => str.toLowerCase() === val.toLowerCase())
-    return match.name
+    return match ? match.name : str
 
   }
 
