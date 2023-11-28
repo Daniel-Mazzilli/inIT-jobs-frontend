@@ -39,9 +39,10 @@ function JobProvider({ children }) {
         setSearchResult(data);
       })
       .catch((error) => console.log(error));
-      axios.get(`${API}/jobs/22`)
-      .then(({data}) => setBonus(data))
-      .catch(err=> console.log(err))
+
+    // axios.get(`${API}/jobs/22`)
+    //   .then(({data}) => setBonus(data))
+    //   .catch(err=> console.log(err))
   }, []);
 
   useEffect(() => {
