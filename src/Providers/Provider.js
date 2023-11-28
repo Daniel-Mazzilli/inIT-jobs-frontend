@@ -22,7 +22,7 @@ function Provider({ children }) {
   const [recruiterID, setRecruiterID] = useState(localRecruiterID);
   // authToken will be manually hardcoded for now
   const [authToken, setAuthToken] = useState(
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRtQGVtYWlsLmNvbSIsImlhdCI6MTY4NjMyOTYwMCwiZXhwIjoxNjg4OTIxNjAwfQ.xbvOYV9eWX97WghUE5YSrZRKIjJsfF6T19CWKBDfIqU"
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRtQGVtYWlsLmNvbSIsImlhdCI6MTcwMTE5MTc2MCwiZXhwIjoxNzAzNzgzNzYwfQ.LuImdYYh5JoMm-6NRaGxrhJlEPyWzVqa9QVKi2v3M9g"
   );
   const [openNav, setOpenNav] = useState(false);
   const [accessRegTwo, setAccessRegTwo] = useState(false);
