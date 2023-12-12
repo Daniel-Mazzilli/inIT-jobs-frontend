@@ -10,4 +10,4 @@ Once your account is set up, if you are an applicant you may apply to positions.
 
 To get started visit the deployed link [Deployed Front-End](https://initjobs.netlify.app/)
 
-[Back-End Repo] (https://github.com/Daniel-Mazzilli/inIT-jobs-backend)
+[Back-End Repo](https://github.com/Daniel-Mazzilli/inIT-jobs-backend)
